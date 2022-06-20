@@ -1,6 +1,6 @@
 <?php
-// Copyright 2011 Toby Zerner, Simon Zerner
-// This file is part of esoTalk. Please see the included license file for usage information.
+// Copyright 2022 Andromeda-Z
+// This file is part of esoForum. Please see the included license file for usage information.
 
 ET::$languageInfo["German"] = array(
 	"locale" => "de-DE",
@@ -54,7 +54,7 @@ $definitions["%s started the conversation %s."] = "%s beginnt die Unterhaltung %
 $definitions["%s will be able to view this conversation."] = "%s wird diese Unterhaltung sehen k&ouml;nnen.";
 $definitions["%s will be able to:"] = "%s wird folgendes k&ouml;nnen:";
 
-$definitions["A new version of esoTalk (%s) is available."] = "Eine neue esoTalk-Version (%s) ist verf&uuml;gbar.";
+$definitions["A new version of esoTalk (%s) is available."] = "Eine neue esoForum-Version (%s) ist verf&uuml;gbar.";
 $definitions["a private conversation"] = "eine private Unterhaltung";
 $definitions["Automatically follow conversations that I reply to"] = "Unterhaltungen, an denen ich teilnehme, automatisch folgen.";
 $definitions["Automatically follow private conversations that I'm added to"] = "Privaten Unterhaltungen, zu denen ich hinzugef&uuml;gt werden, automatisch folgen.";
@@ -156,7 +156,7 @@ $definitions["Enable"] = "Aktivieren";
 $definitions["Enabled"] = "Aktiviert";
 $definitions["Enter a conversation title"] = "Titel der Unterhaltung";
 $definitions["Error"] = "Fehler";
-$definitions["esoTalk version"] = "esoTalk-Version";
+$definitions["esoTalk version"] = "esoForum-Version";
 $definitions["Everyone"] = "Alle";
 
 $definitions["Fatal Error"] = "Uh oh! Ein wirklich schlimmer Fehler...";
@@ -204,8 +204,8 @@ $definitions["Hide"] = "Verstecken";
 $definitions["Home page"] = "Startseite";
 $definitions["HTML is allowed."] = "HTML ist erlaubt.";
 
-$definitions["If you run into any other problems or just want some help with the installation, feel free to ask for assistance at the <a href='%s'>esoTalk support forum</a>."] = "Wenn Du Probleme oder Fragen bei der Installation hast, kannst Du im <a href='%s'>esoTalk Support Forum</a> einfach um Hilfe bitten.";
-$definitions["Install esoTalk"] = "Installiere esoTalk";
+$definitions["If you run into any other problems or just want some help with the installation, feel free to ask for assistance at the <a href='%s'>esoForum support forum</a>."] = "Wenn Du Probleme oder Fragen bei der Installation hast, kannst Du im <a href='%s'>esoTalk Support Forum</a> einfach um Hilfe bitten.";
+$definitions["Install esoTalk"] = "Installiere esoForum";
 $definitions["Install My Forum"] = "Installiere My Forum";
 $definitions["Installed Languages"] = "Installierte Sprachen";
 $definitions["Installed Plugins"] = "Installierte Plugins";
@@ -383,7 +383,7 @@ $definitions["Unsuspend member"] = "Benutzer entsperren";
 $definitions["Unsuspend"] = "Entsperren";
 $definitions["Until someone replies"] = "Bis der erste antwortet";
 $definitions["Untitled conversation"] = "(Ohne Titel)";
-$definitions["Upgrade esoTalk"] = "esoTalk aktualisieren";
+$definitions["Upgrade esoTalk"] = "esoForum aktualisieren";
 $definitions["Use a background image"] = "Hintergrundbild benutzen";
 $definitions["Use for mobile"] = "Use for mobile";
 $definitions["Use friendly URLs"] = "Benutze freundliche URLs";
@@ -400,7 +400,7 @@ $definitions["Viewing: %s"] = "Gezeigt: %s";
 $definitions["viewingPosts"] = "<b>%s-%s</b> von %s Beitr&auml;gen";
 
 $definitions["Warning"] = "Uh oh, irgendwas stimmt hier nicht!";
-$definitions["Welcome to esoTalk!"] = "Willkommen in Deiner esoTalk-Installation!";
+$definitions["Welcome to esoTalk!"] = "Willkommen in Deiner esoForum-Installation!";
 $definitions["We've logged you in and taken you straight to your forum's administration panel. You're welcome."] = "Wir haben Dich angemeldet und Dich direkt in die Administration weitergeleitet. Gern geschehen.";
 $definitions["Write a reply..."] = "Eine Antwort verfassen...";
 
@@ -424,7 +424,7 @@ $definitions["message.confirmDelete"] = "Bist Du sicher, dass Du das l&ouml;sche
 $definitions["message.confirmDiscardReply"] = "Du hast Deine Antwort noch nicht als Entwurf gespeichert. Bist Du sicher, dass Du sie verwerfen willst?";
 $definitions["message.confirmEmail"] = "Bevor Du mit Deinem neuen Zugang arbeiten kannst, mu&szlig;t Du zuerst Deine E-Mailadresse best&auml;tigen. In den n&auml;chsten Minuten erh&auml;ltst Du von uns eine E-Mail mit einem Link, mit dem Du Deine Mitgliedschaft best&auml;tigen kannst.";
 $definitions["message.confirmLeave"] = "Woah, Du hast Deinen Entwurf nicht gespeichert! Sobald Du diese Seite verl&auml;sst, verlierst Du alle ggf. eingegebenen Daten. Is this ok?";
-$definitions["message.connectionError"] = "esoTalk konnte sich nicht mit dem MySQL-Server verbinden. Der Fehler war:<br/>%s";
+$definitions["message.connectionError"] = "esoForum konnte sich nicht mit dem MySQL-Server verbinden. Der Fehler war:<br/>%s";
 $definitions["message.conversationDeleted"] = "Die Unterhaltung wurde gel&ouml;scht. Hat das nicht gut getan?";
 $definitions["message.conversationNotFound"] = "Aus irgendwelchen Gr&uuml;nden kann diese Unterhaltung nicht angesehen werden. Vielleicht gibt es sie gar nicht, oder Du hast nicht die richtigen Berechtigungen.";
 $definitions["message.cookieAuthenticationTheft"] = "Aus Sicherheitsgr&uuml;nden konnten wir Dich nicht mit Deinem 'remember me'-Cookie anmelden. Bitte melde Dich am Login an!";
@@ -436,12 +436,12 @@ $definitions["message.emailTaken"] = "Verdammt, es gibt schon jemanden mit Deine
 $definitions["message.empty"] = "Bitte f&uuml;lle dieses Feld aus.";
 $definitions["message.emptyPost"] = "Japp... &auml;h, Du solltest vielleicht etwas in Deinem Beitrag schreiben.";
 $definitions["message.emptyTitle"] = "Der Titel Deiner Unterhaltung darf nicht leer sein. Also, wie soll jemand auf einen leeren Titel <em>klicken</em>? &Uuml;berleg doch mal!";
-$definitions["message.esoTalkAlreadyInstalled"] = "<strong>esoTalk ist schon installiert.</strong><br/><small>Um esoTalk neu zu installieren, musst Du die <strong>config/config.php</strong> entfernen.</small>";
-$definitions["message.esoTalkUpdateAvailable"] = "Eine neue Version von esoTalk, %s, ist verf&uuml;gbar.";
+$definitions["message.esoTalkAlreadyInstalled"] = "<strong>esoForum ist schon installiert.</strong><br/><small>Um esoForum neu zu installieren, musst Du die <strong>config/config.php</strong> entfernen.</small>";
+$definitions["message.esoTalkUpdateAvailable"] = "Eine neue Version von esoForum, %s, ist verf&uuml;gbar.";
 $definitions["message.esoTalkUpdateAvailableHelp"] = "Um Sicherheitsprobleme zu vermeiden, empfehlen wir immer die aktuellste Version zu installieren. Vielleicht sind sogar coole, neue Funktionen dabei!";
-$definitions["message.esoTalkUpToDate"] = "Deine esoTalk-Version ist aktuell.";
-$definitions["message.esoTalkUpToDateHelp"] = "Ich bin ein armer Student, der mittlerweile &uuml;ber 100 Stunden in esoTalk gesteckt hat. Wenn Du das gut findest, denk' doch mal &uuml;ber eine <a href='%s' target='_blank'>Spende</a> nach.";
-$definitions["message.fatalError"] = "<p>esoTalk has encountered an nasty error which is making it impossible to do whatever it is that you're doing. But don't feel down - <strong>here are a few things you can try</strong>:</p>\n<ul>\n<li>Go outside, walk the dog, have a coffee... then <strong><a href='%1\$s'>try again</a></strong>!</li>\n<li>If you are the forum administrator, then you can <strong>get help on the <a href='%2\$s'>esoTalk website</a></strong>.</li>\n<li>Try hitting the computer - that sometimes works for me.</li>\n</ul>";
+$definitions["message.esoTalkUpToDate"] = "Deine esoForum-Version ist aktuell.";
+$definitions["message.esoTalkUpToDateHelp"] = "Ich bin ein armer Student, der mittlerweile &uuml;ber 100 Stunden in esoForum gesteckt hat. Wenn Du das gut findest, denk' doch mal &uuml;ber eine <a href='%s' target='_blank'>Spende</a> nach.";
+$definitions["message.fatalError"] = "<p>esoForum has encountered an nasty error which is making it impossible to do whatever it is that you're doing. But don't feel down - <strong>here are a few things you can try</strong>:</p>\n<ul>\n<li>Go outside, walk the dog, have a coffee... then <strong><a href='%1\$s'>try again</a></strong>!</li>\n<li>If you are the forum administrator, then you can <strong>get help on the <a href='%2\$s'>esoForum website</a></strong>.</li>\n<li>Try hitting the computer - that sometimes works for me.</li>\n</ul>";
 $definitions["message.fileUploadFailed"] = "Something went wrong and the file you selected could not be uploaded. Perhaps it's too big, or in the wrong format?";
 $definitions["message.fileUploadFailedMove"] = "The file you uploaded could not be copied to its destination. Please contact the forum administrator.";
 $definitions["message.fileUploadNotImage"] = "The file you uploaded is not an image in an acceptable format.";
@@ -451,12 +451,12 @@ $definitions["message.fulltextKeywordWarning"] = "Note that keywords less than 4
 $definitions["message.gambitsHelp"] = "Gambits are phrases that describe what you are looking for. Click on a gambit to insert it into the search field. Double-click on a gambit to instantly search for it. Normal search keywords work too!";
 $definitions["message.gdNotEnabledWarning"] = "The <strong>GD extension</strong> is not enabled.<br/><small>This is required to resize and save avatars. Get your host or administrator to install/enable it.</small>";
 $definitions["message.greaterMySQLVersionRequired"] = "You must have <strong>MySQL 4 or greater</strong> installed and the <a href='http://php.net/manual/en/mysql.installation.php' target='_blank'>MySQL extension enabled in PHP</a>.<br/><small>Please install/upgrade both of these requirements or request that your host or administrator install them.</small>";
-$definitions["message.greaterPHPVersionRequired"] = "Your server must have <strong>PHP 5.0.0 or greater</strong> installed to run esoTalk.<br/><small>Please upgrade your PHP installation or request that your host or administrator upgrade the server.</small>";
+$definitions["message.greaterPHPVersionRequired"] = "Your server must have <strong>PHP 5.0.0 or greater</strong> installed to run esoForum.<br/><small>Please upgrade your PHP installation or request that your host or administrator upgrade the server.</small>";
 $definitions["message.incorrectLogin"] = "Diese Zugangsdaten sind nicht korrekt.";
 $definitions["message.incorrectPassword"] = "Das aktuelle Passwort ist nicht korrekt.";
-$definitions["message.installerAdminHelp"] = "esoTalk braucht die folgenden Daten, um den Administrator-Zugang f&uuml;r das Forum anzulegen.";
-$definitions["message.installerFilesNotWritable"] = "esoTalk cannot write to the following files/folders: <strong>%s</strong>.<br/><small>To resolve this, you must navigate to these files/folders in your FTP client and <strong>chmod</strong> them to <strong>777</strong>.</small>";
-$definitions["message.installerWelcome"] = "<p>Welcome to the esoTalk installer! We need a few details from you so we can get your forum set up and ready to go.</p>\n<p>If you have any trouble, get help on the <a href='%s'>esoTalk support forum</a>.</p>";
+$definitions["message.installerAdminHelp"] = "esoForum braucht die folgenden Daten, um den Administrator-Zugang f&uuml;r das Forum anzulegen.";
+$definitions["message.installerFilesNotWritable"] = "esoForum cannot write to the following files/folders: <strong>%s</strong>.<br/><small>To resolve this, you must navigate to these files/folders in your FTP client and <strong>chmod</strong> them to <strong>777</strong>.</small>";
+$definitions["message.installerWelcome"] = "<p>Welcome to the esoForum installer! We need a few details from you so we can get your forum set up and ready to go.</p>\n<p>If you have any trouble, get help on the <a href='%s'>esoForum support forum</a>.</p>";
 $definitions["message.invalidChannel"] = "Du hast einen ung&uuml;ltigen Kanal ausgew&auml;hlt!";
 $definitions["message.invalidEmail"] = "Diese E-Mailadresse sieht nicht richtig aus...";
 $definitions["message.invalidUsername"] = "You must choose a username between 3 and 20 alphanumeric characters.";
@@ -492,21 +492,21 @@ $definitions["message.pluginDependencyNotMet"] = "To enable this plugin, you mus
 $definitions["message.pluginUninstalled"] = "The plugin was uninstalled.";
 $definitions["message.postNotFound"] = "The post you're looking for could not be found.";
 $definitions["message.postTooLong"] = "Your post is really, really long! Too long! The maximum number of characters allowed is %s. That's really long!";
-$definitions["message.preInstallErrors"] = "The following errors were found with your esoTalk setup. They must be resolved before you can continue the installation.";
-$definitions["message.preInstallWarnings"] = "The following errors were found with your esoTalk setup. You can continue the esoTalk install without resolving them, but some esoTalk functionality may be limited.";
+$definitions["message.preInstallErrors"] = "The following errors were found with your esoForum setup. They must be resolved before you can continue the installation.";
+$definitions["message.preInstallWarnings"] = "The following errors were found with your esoForum setup. You can continue the esoForum install without resolving them, but some esoForum functionality may be limited.";
 $definitions["message.reduceNumberOfGambits"] = "Reduce the number of gambits or search keywords you're using to find a broader range of conversations.";
-$definitions["message.registerGlobalsWarning"] = "PHP's <strong>register_globals</strong> setting is enabled.<br/><small>While esoTalk can run with this setting on, it is recommended that it be turned off to increase security and to prevent esoTalk from having problems.</small>";
+$definitions["message.registerGlobalsWarning"] = "PHP's <strong>register_globals</strong> setting is enabled.<br/><small>While esoForum can run with this setting on, it is recommended that it be turned off to increase security and to prevent esoForum from having problems.</small>";
 $definitions["message.registrationClosed"] = "Registration on this forum is not open to the public.";
 $definitions["message.removeDirectoryWarning"] = "Hey! Looks like you haven't deleted the <code>%s</code> directory like we told you to! You probably should, just to make sure those hackers can't do anything naughty.";
-$definitions["message.safeModeWarning"] = "<strong>Safe mode</strong> is enabled.<br/><small>This could potentially cause problems with esoTalk, but you can still proceed if you cannot turn it off.</small>";
+$definitions["message.safeModeWarning"] = "<strong>Safe mode</strong> is enabled.<br/><small>This could potentially cause problems with esoForum, but you can still proceed if you cannot turn it off.</small>";
 $definitions["message.searchAllConversations"] = "Versuche doch, diesen Suchbegriff in allen Unterhaltungen zu suchen.";
 $definitions["message.setNewPassword"] = "Sehr gut! Was soll Dein neues Passwort sein?";
 $definitions["message.skinUninstalled"] = "Das Skin wurde de-installiert.";
 $definitions["message.suspended"] = "Aua! Ein Moderator hat Deinen Zugang <strong>eingefroren</strong>. Das ist doof, aber bis das nicht aufgehoben worden ist, wirst Du hier nichts tun k&ouml;nnen.";
 $definitions["message.suspendMemberHelp"] = "%s einzufrieren wird verhindern, dass ein Post geschrieben oder eine Antwort verfasst werden kann. Auch private Gespr&auml;che sind nicht mehr m&ouml;glich. Die Rechte sind denen eines Gastes &auml;hnlich.";
-$definitions["message.tablePrefixConflict"] = "The installer has detected that there is another installation of esoTalk in the same MySQL database with the same table prefix.<br/>To overwrite this installation of esoTalk, click 'Install My Forum' again. <strong>All data will be lost.</strong><br/>If you wish to create another esoTalk installation alongside the existing one, <strong>change the table prefix</strong>.";
+$definitions["message.tablePrefixConflict"] = "The installer has detected that there is another installation of esoForum in the same MySQL database with the same table prefix.<br/>To overwrite this installation of esoTalk, click 'Install My Forum' again. <strong>All data will be lost.</strong><br/>If you wish to create another esoForum installation alongside the existing one, <strong>change the table prefix</strong>.";
 $definitions["message.unsuspendMemberHelp"] = "Unsuspending %s will enable them to participate in conversations on this forum again.";
-$definitions["message.upgradeSuccessful"] = "esoTalk wurde erfolgreich aktualisiert.";
+$definitions["message.upgradeSuccessful"] = "esoForum wurde erfolgreich aktualisiert.";
 $definitions["message.waitForApproval"] = "Bevor Du Deinen neuen Account benutzen kannst, muss dieser durch einen  Administrator best&auml;tigt werden. Wir senden Dir eine E-Mail, sobald Dein Account freigegeben wurde.";
 $definitions["message.waitToReply"] = "Du musst mindestens %s Sekunden nach dem Post warten, bevor Du antworten darfst. Tief durchatmen und noch einmal probieren.";
 $definitions["message.waitToSearch"] = "Woah, langsam! Sieht so aus, als w&uuml;rdest Du zu viele Suchanfragen abschicken. Warte bitte %s Sekunden und versuche es nochmal.";
